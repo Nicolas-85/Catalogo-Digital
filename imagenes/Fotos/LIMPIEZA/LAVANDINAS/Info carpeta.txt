@@ -1,0 +1,33 @@
+Referencias de rubro LIMPIEZA - LAVANDINAS:
+
+///////////////Productos NO asociados:
+817 PROF PRIME VARIOS 3U //No se entiende que producto es...
+
+///////////////Productos asociados:
+
+1 - AYUDIN // Todas las descripciones fueron modificadas.
+2140 LAVANDINA AYUDIN 1000ML
+2270 LAVANDINA AYUDIN 2000ML
+2268 LAVANDINA EN GEL AYUDIN CITRICA 700ML
+2269 LAVANDINA EN GEL AYUDIN FLORAL 700ML
+2266 LAVANDINA EN GEL AYUDIN MENTA 700ML
+2267 LAVANDINA EN GEL AYUDIN ORIGINAL 700ML
+2141 AYUDIN ROPA BLANCO 1000ML
+
+2 - DEA
+4502 LAVANDINA DEA 2000CC
+4503 LAVANDINA EN GEL DEA 600CC
+4501 LAVANDINA DEA 1000CC  
+
+///////////////Cambiar de rubro:
+
+///////////////Sacar fotos de:	
+
+///////////////Productos Sin Marca:
+
+
+
+
+
+
+

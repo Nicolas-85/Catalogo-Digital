@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+
+@media print {    
+    .footer{
+        page-break-before: always;
+    }
+    .contenedorDinamicoTarjeta{
+        page-break-inside: avoid;  
+    }
+    @page {
+        size: A4;
+    }
+}
+
+
+.header{ /*Porsupuesto que es el encabezado...*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: aliceblue;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px; /* establece la altura del header */
+} 
+
+.contenedorBgImgHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("imagenes/Posible-bg-header.jpg");
+    padding: 5px;
+    height: min-content;
+    width: 100%;
+    font-family:'JetBrains Mono', monospace;
+}
+
+.contenedorBgImgHeader p{
+    font-size: 12px;
+}
+
+.imgLogo{
+    margin-left: 20px;
+    height: 50px;
+    width: auto;
+}
+
+.contenedorNombreDireccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorHorarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin-right: 20px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #855c16;
+    color: aliceblue;
+    width: 100%;
+    height: 50px; /* establece la altura del footer */
+}
+
+.contenedorBgImgFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("imagenes/Posible-bg-header.jpg");
+    /* padding: 5px 20px; */
+    height: max-content;
+    padding: 0px 5px;
+    width: 100%;
+    font-family:'JetBrains Mono', monospace;
+}
+
+.contenedorRedes{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contenedorProductos{
+    display: grid;
+    justify-items: center;
+    /* margin-right: 10px; */
+    /* background-color: black; */
+    /* grid-template-columns: 200px 200px 200px 200px; */
+    grid-template-columns: repeat(2, 6fr);
+    grid-auto-rows: minmax(100px, auto);
+    /* gap: 5px; */
+    row-gap: 0px;
+    /* margin-bottom: 20px; */
+    /* margin-top: 50px; establece la distancia entre el header y el contenido */
+    margin-bottom: 50px; /* establece la distancia entre el contenido y el footer */
+}
+
+.contenedorDinamicoTarjeta{
+    display: flex;
+    padding: 6px;
+    /* padding-bottom: 2px; */
+    border: 1px solid #855c16;
+    border-radius: 15px;
+    /* background-color: #855c16; */
+    background-image: url("imagenes/Fondo\ tajeta\ 2.png"); /* Esta es la imagen de la tarjeta*/
+    color: white;    
+    width: 385px;
+    max-height: min-content;
+    /* margin-bottom: 10px; */
+    margin-top: 75px;
+    margin-bottom: -40px;
+}
+
+.contenedorDinamicoTarjeta p, h5 {
+    display: flex;
+    margin: 5px;
+    font-size: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
+.imagen{
+    width: 120px;
+    height: 120px;
+}
+
+.contenedorInput{
+    position: absolute; 
+    /* display: none; */
+}
+
+.contenedorInputCerrado{
+    display: none !important;
+}
+
+
+
+
+
+
+
+
+/* Este es el estilo inicial del contenedor de las tarjetas
+/* .contenedorProductos{ */
+    /* margin-top: 0px; */
+    /* margin-bottom: 0px; */
+    /* display: flex; */
+    /* display: grid; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* grid-template-rows: repeat(4, 1fr); */
+    /* justify-items: center; */
+    /* column-gap: 0px; */
+    /* row-gap: 20px; */
+    /* padding: 10px; */
+    /* break-after: auto; */
+/* } */ 
