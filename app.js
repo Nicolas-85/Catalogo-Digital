@@ -5,7 +5,6 @@ let imagenes = document.getElementById("imagen")
 let contenedorInput = document.getElementById("contenedorInput")
 // console.log(tarjeta.getAttribute('id'))
 
-/////////////////////////////Código propio/////////////////////
 input.addEventListener('change', ()=>{
     contenedorInput.setAttribute('class', 'contenedorInputCerrado');//hacemos desaparecer el input a través del cambio de clase.
     const archivos = input.files; //Obtiene los archivos seleccionados por el usuario en el input de selección de archivo.    
@@ -35,12 +34,6 @@ input.addEventListener('change', ()=>{
                 return element.length > 1; 
             })
         )};
-        
-        // for(let item of arrayDeResultado3){
-        //   console.log(item);
-        //     // item.pop();
-        //     item.push("imagenes/4450.jpg"); //imagenes/chocolate1.jfif 
-        // }
         const arrayDeResultado4 = arrayDeResultado3.pop();
         crearProductos(arrayDeResultado3);
         console.log(arrayDeResultado3);
@@ -49,7 +42,6 @@ input.addEventListener('change', ()=>{
     contenido.readAsText(archivo)
 });
 
-
 const crearProductos = (resultado)=>{
   const fragment = document.createDocumentFragment() //creamos un fragmento para poder agregar las tarjetas
   for(const item of resultado){
@@ -57,7 +49,6 @@ const crearProductos = (resultado)=>{
       const contenedor = document.createElement('div');
       contenedor.setAttribute('class', 'contenedorDinamicoTarjeta');
 
-    // Comienza la prueba de chatGPT
     // Supongamos que item[3] contiene la ruta completa "C:\Fotos\GOLOSINAS\ALFAJORES Y CHOCOLATES\607.jpg"
     const rutaLocalCompleta = item[3];
     console.log(rutaLocalCompleta);
@@ -112,53 +103,3 @@ const crearProductos = (resultado)=>{
   // console.log(fragment)
   tarjeta.appendChild(fragment)
 }
-
-
-// //////////////////////Código hecho con PAPA PARSE://////////////////////
-// // // Escuchar el evento de cambio del elemento <input>
-// // input.addEventListener('change', (event) => {
-// //   // Obtener el archivo seleccionado
-// //   const file = event.target.files[0];
-
-// //   // Leer el archivo con papa parse
-// //   Papa.parse(file, {
-// //     complete: (results) => {
-// //       // Aquí tienes acceso a los datos parseados en 'results.data'
-// //       const dataArray = results.data;
-// //       // Haz lo que necesites con el array iterable 'dataArray'
-// //       dataArray.shift();
-// //       console.log(dataArray);
-// //       const casiDefinitivo = dataArray.filter( array => array.length >= 4);
-// //       console.log(casiDefinitivo);
-// //     }
-// //   });
-// // });
-
-// let resultadoCasiDefinitivo;
-
-// input.addEventListener('change',  (event) => {
-//   const file = event.target.files[0];
-  
-//   Papa.parse(file, {
-//     complete: (results) => {
-//       const dataArray = results.data;
-//       dataArray.shift();
-//       const casiDefinitivo = dataArray.filter((array, index, self) => {
-//         const ultimoElemento = array[array.length - 1];
-//         return self.some((a, i) => i !== index && a[a.length - 1] === ultimoElemento);
-//       });
-//       console.log(casiDefinitivo);
-
-//       resultadoCasiDefinitivo = casiDefinitivo; // Asignar el valor al resultado fuera de la función
-
-//       console.log(resultadoCasiDefinitivo);
-//     }
-//   });
-// });
-
-// Puedes utilizar resultadoCasiDefinitivo aquí o en cualquier otro lugar fuera de la función
-// console.log(resultadoCasiDefinitivo);
-
-
-
-
