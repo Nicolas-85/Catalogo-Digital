@@ -5,8 +5,31 @@
     scroll-behavior: smooth;
 }
 
+html{
+    font-family: var(--base-font);
+    font-size: 62.5%; /*se establece el tamaño de fuente del sitio en 10px, para que el calculo de -em- sea mas facil*/
+    color: var(--dark-solid);
+}
+
+:root{
+    /* Paleta de colores */
+    --blanco: #e8ede7;
+    --celeste: #81bece;
+    --celeste-oscuro: #378ba4;
+    --azul: #036280;
+    --azul-oscuro: #012e4a; 
+    --rosa: #eba9cb;
+    --naranja: #fcb270; 
+    
+    /* Tipos de fuente */
+    --fuente-base: 'Open Sans', sans-serif;
+    --fuente-alternativa: 'Roboto', sans-serif;
+    --fuente-alternativa-dos: 'JetBrains Mono', monospace;
+/* ------------Continuar con los tamaños de letra.-------------------- */
+}
+
 body{
-    background-color: black;
+    background-color: #e8ede7;
 }
 
 
@@ -21,16 +44,6 @@ body{
         size: A4;
     }
 }
-
-/* Colores: 
-    naranja: #fcb270
-    rosa: #eba9cb
-    blanco: #e8ede7
-    celeste: #81bece
-    celeste+: #378ba4
-    azul: #036280
-    azul+: #012e4a */
-
     
 .header{ /*Porsupuesto que es el encabezado...*/
     position: fixed;
@@ -47,7 +60,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url("imagenes/Posible-bg-header.jpg");
+    background-color: #012e4a;
     padding: 5px;
     height: min-content;
     width: 100%;
@@ -82,7 +95,6 @@ body{
 .footer{
     position: fixed;
     bottom: 0;
-    background-color: #855c16;
     color: aliceblue;
     width: 100%;
     height: 50px; /* establece la altura del footer */
@@ -92,7 +104,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url("imagenes/Posible-bg-header.jpg");
+    background-color: #012e4a;
     /* padding: 5px 20px; */
     height: max-content;
     padding: 0px 5px;
@@ -126,10 +138,10 @@ body{
     display: flex;
     padding: 6px;
     /* padding-bottom: 2px; */
-    border: 1px solid #855c16;
+    border: 1px solid #81bece;
     border-radius: 15px;
-    /* background-color: #855c16; */
-    background-image: url("imagenes/Fondo\ tajeta\ 2.png"); /* Esta es la imagen de la tarjeta*/
+    background-color: #378ba4;
+    /* background-image: url("imagenes/Fondo\ tajeta\ 2.png"); Esta es la imagen de la tarjeta */
     color: white;    
     width: 385px;
     max-height: min-content;

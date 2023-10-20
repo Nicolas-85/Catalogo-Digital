@@ -1,7 +1,0 @@
-'cod_producto','nom_producto','val_cantidad_uc','des_path_foto'
-'863','ARROZ SAN JAVIER 500G','10.0000','C:\Fotos\ALMACEN\ARROZ\863.jpg'
-'864','ARROZ SAN JAVIER 1000G','10.0000','C:\Fotos\ALMACEN\ARROZ\864.jpeg'
-'977','ARROZ MAGISTRAL X 500G','10.0000','C:\Fotos\ALMACEN\ARROZ\977.jpg'
-'978','ARROZ MAGISTRAL  1000G','10.0000','C:\Fotos\ALMACEN\ARROZ\978.jpg'
-
-
