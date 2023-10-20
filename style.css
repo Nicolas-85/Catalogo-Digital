@@ -22,7 +22,16 @@ body{
     }
 }
 
+/* Colores: 
+    naranja: #fcb270
+    rosa: #eba9cb
+    blanco: #e8ede7
+    celeste: #81bece
+    celeste+: #378ba4
+    azul: #036280
+    azul+: #012e4a */
 
+    
 .header{ /*Porsupuesto que es el encabezado...*/
     position: fixed;
     top: 0;
@@ -136,9 +145,14 @@ body{
     font-family: 'Playfair Display', serif;
     font-weight: lighter;
 }
+
+.descripcionProducto{
+    display: flex;
+}
+
 .imagen{
-    width: 120px;
-    height: 120px;
+    width: 115px;
+    height: 115px;
 }
 
 .contenedorInput{
