@@ -22,35 +22,58 @@ input.addEventListener('change', ()=>{
         for(let item of arrayDeResultado){ //recorremos cada string con los datos.
             arrayDeResultado2.push(item.split("'")); //transformamos cada elemento string en un arreglo con cada dato.
         };
-        const arrayDeResultado3 = []; //creamos un arreglo vacío que va a ser el definitivo.
+        // const arrayDeResultado3 = []; //creamos un arreglo vacío que va a ser el definitivo.
 
-        for(let item of arrayDeResultado2){
-            arrayDeResultado3.push(item.filter((element)=>{ //filtramos los elementos del array para poder eliminar comillas de más.
-                return element.length > 1; 
-            })
-        )};
+        // for(let item of arrayDeResultado2){
+        //     arrayDeResultado3.push(item.filter((element)=>{ //filtramos los elementos del array para poder eliminar comillas de más.
+        //         return element.length > 1; 
+        //     })
+        // )};
+        const arrayDeResultado3 = arrayDeResultado2.map((arreglo) => {
+          return arreglo.filter(element => element !== ' ' && element !== ',');
+      });
+        
+        const arrayDeResultado4 = arrayDeResultado3.map((arreglo) => {
+          return arreglo.filter((element, index) => element !== '' || (index !== 0 && index !== arreglo.length - 1));
+      });
 
-        crearProductos(arrayDeResultado3);
+      crearProductos(arrayDeResultado4);
     };
 
-    contenido.readAsText(archivo)
+    contenido.readAsText(archivo);
 });
 
-const obtenerRutaImagen = (rutaLocalCompleta)=>{
-  const rutaInputCompleta = rutaLocalCompleta; //Tomo la ruta completa del archivo .txt
-  const rutaRelativa = rutaInputCompleta.replace("D:\\", "");//Quitamos el "D:/" de la ruta y generamos una relativa
-  const rutaBase = 'imagenes/'; //Genero ruta base para las imágenes dentro del directorio
-  return `${rutaBase}${rutaRelativa}`;//armo la ruta completa de las imágenes con relativa + base
+// const obtenerRutaImagen = (rutaLocalCompleta)=>{
+//   // imagenes\Fotos\noHayImagen.jpg
+//   console.log(rutaLocalCompleta);
+//   const rutaInputCompleta = rutaLocalCompleta; //Tomo la ruta completa del archivo .txt
+//   const rutaRelativa = rutaInputCompleta.replace("D:\\", "");//Quitamos el "D:/" de la ruta y generamos una relativa
+//   const rutaBase = 'imagenes/'; //Genero ruta base para las imágenes dentro del directorio
+//   return `${rutaBase}${rutaRelativa}`;//armo la ruta completa de las imágenes con relativa + base
+// };
+
+const obtenerRutaImagen = (rutaLocalCompleta) => {
+  if (rutaLocalCompleta && rutaLocalCompleta.trim() !== '') {
+    const rutaInputCompleta = rutaLocalCompleta;
+    const rutaRelativa = rutaInputCompleta.replace("D:\\", "");
+    const rutaBase = 'imagenes/';
+    // console.log(rutaBase + rutaRelativa);
+    // console.log(rutaRelativa);
+    return `${rutaBase}${rutaRelativa}`;
+  } else {
+    return 'imagenes/Fotos/noHayImagen.jpg';
+  }
 };
 
 // Función que crea las tarjetas de productos, asociados y NO asociados.
 const crearProductos = (resultado)=>{
+  // console.log(resultado[0][3]);
   const fragment = document.createDocumentFragment() //creamos un fragmento para poder agregar las tarjetas y optimizar el proceso.
   const productosAgrupados = {}; //Creamos un objeto para los productos agrupados.
   
   for(const item of resultado){ //recorremos el arreglo con todos los productos para leer sus datos.
     const imagenRuta = obtenerRutaImagen(item[3]);//la función para crear la ruta la saqué afuera de esta función.
-      
+    // console.log( imagenRuta);
     if(!productosAgrupados[imagenRuta]){//Si no existen claves "imagenRuta" en el objeto productosAgrupados.
       productosAgrupados[imagenRuta] = {//creo la clave imagenRuta y como valor un objeto de dos propiedades.
         imagenes: [],//propiedad imagen.
@@ -60,6 +83,7 @@ const crearProductos = (resultado)=>{
     
     //lleno los clave/arreglos imagen y productos del objeto productosAgrupados.
     productosAgrupados[imagenRuta].imagenes.push(imagenRuta);//lleno el clave/arreglo imagenes con todas las rutas de imágenes
+    console.log(productosAgrupados[imagenRuta].imagenes);
     productosAgrupados[imagenRuta].productos.push(item);//lleno la clave/arreglo productos con las descripciones.
   };
 

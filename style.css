@@ -5,12 +5,6 @@
     scroll-behavior: smooth;
 }
 
-html{
-    font-family: var(--base-font);
-    font-size: 62.5%; /*se establece el tamaño de fuente del sitio en 10px, para que el calculo de -em- sea mas facil*/
-    color: var(--dark-solid);
-}
-
 :root{
     /* Paleta de colores */
     --blanco: #e8ede7;
@@ -25,13 +19,26 @@ html{
     --fuente-base: 'Open Sans', sans-serif;
     --fuente-alternativa: 'Roboto', sans-serif;
     --fuente-alternativa-dos: 'JetBrains Mono', monospace;
-/* ------------Continuar con los tamaños de letra.-------------------- */
+    
+    /* Tamaños de fuente */
+    --fuente-tamaño-estandar: 1.2em;
+    
+    /* Espesor Fuente */
+    --fuenta-fina: 300;
+    --fuente-regular: 400;
+    --fuente-media: 500;
+    
+}
+
+html{
+    font-family: var(--base-font);
+    font-size: 62.5%; /*se establece el tamaño de fuente del sitio en 10px, para que el calculo de -em- sea mas facil*/
+    color: var(--dark-solid);
 }
 
 body{
     background-color: #e8ede7;
 }
-
 
 @media print {    
     .footer{
@@ -60,16 +67,17 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #012e4a;
+    background-color: var(--azul);
     padding: 5px;
     height: min-content;
     width: 100%;
-    font-family:'JetBrains Mono', monospace;
+    font-family: var(--fuente-base);
+    font-size: var(--fuente-tamaño-estandar);
 }
 
-.contenedorBgImgHeader p{
+/* .contenedorBgImgHeader p{
     font-size: 12px;
-}
+} */
 
 .imgLogo{
     margin-left: 20px;
@@ -104,12 +112,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #012e4a;
+    background-color: var(--azul);
     /* padding: 5px 20px; */
     height: max-content;
     padding: 0px 5px;
     width: 100%;
-    font-family:'JetBrains Mono', monospace;
+    font-family: var(--fuente-base);
+    font-size: var(--fuente-tamaño-estandar);
 }
 
 .contenedorRedes{
@@ -138,9 +147,9 @@ body{
     display: flex;
     padding: 6px;
     /* padding-bottom: 2px; */
-    border: 1px solid #81bece;
+    border: 1px solid var(--azul);
     border-radius: 15px;
-    background-color: #378ba4;
+    background-color: var(--azul-oscuro);
     /* background-image: url("imagenes/Fondo\ tajeta\ 2.png"); Esta es la imagen de la tarjeta */
     color: white;    
     width: 385px;
@@ -153,9 +162,9 @@ body{
 .contenedorDinamicoTarjeta p, h5 {
     display: flex;
     margin: 5px;
-    font-size: 10px;
-    font-family: 'Playfair Display', serif;
-    font-weight: lighter;
+    font-size: 1.1em;
+    font-family: var(--fuente-base);
+    font-weight: var(--fuenta-fina);
 }
 
 .descripcionProducto{
