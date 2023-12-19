@@ -1,13 +1,13 @@
-const input = document.getElementById("archivoEntrada");
+const entrada = document.getElementById("archivoEntrada");
 const areaTexto = document.getElementById("areaTexto");
 const tarjeta = document.getElementById("contenedorTarjeta");
 const imagenes = document.getElementById("imagen");
 const contenedorInput = document.getElementById("contenedorInput");
 
 //Función para leer el archivo .txt que ingresa por el imput.
-input.addEventListener('change', ()=>{
+entrada.addEventListener('change', ()=>{
     contenedorInput.setAttribute('class', 'contenedorInputCerrado');//hacemos desaparecer el input a través del cambio de clase.
-    const archivos = input.files; //Obtiene los archivos seleccionados por el usuario en el input de selección de archivo.    
+    const archivos = entrada.files; //Obtiene los archivos seleccionados por el usuario en el input de selección de archivo.    
     
     if(archivos.length == 0) return; //Verifica si no se seleccionó ningún archivo y, en ese caso, detiene la ejecución de la función
     const archivo = archivos[0]; // Obtiene el primer archivo seleccionado (asumiendo que solo se permite seleccionar un archivo a la vez).
@@ -37,7 +37,14 @@ input.addEventListener('change', ()=>{
           return arreglo.filter((element, index) => element !== '' || (index !== 0 && index !== arreglo.length - 1));
       });
 
-      crearProductos(arrayDeResultado4);
+      // Eliminar arreglos con posición 3 vacía
+      const arrayDeResultado5 = arrayDeResultado4.filter(arreglo => arreglo[3].trim() !== '');
+
+      // Ordenar por posición 3
+      arrayDeResultado5.sort((a, b) => a[3].localeCompare(b[3]));
+
+      console.log(arrayDeResultado5);
+      crearProductos(arrayDeResultado5);
     };
 
     contenido.readAsText(archivo);
@@ -60,9 +67,10 @@ const obtenerRutaImagen = (rutaLocalCompleta) => {
     // console.log(rutaBase + rutaRelativa);
     // console.log(rutaRelativa);
     return `${rutaBase}${rutaRelativa}`;
-  } else {
-    return 'imagenes/Fotos/noHayImagen.jpg';
-  }
+  } 
+  // else {
+  //   return 'imagenes/Fotos/noHayImagen.jpg';
+  // }
 };
 
 // Función que crea las tarjetas de productos, asociados y NO asociados.
@@ -83,12 +91,12 @@ const crearProductos = (resultado)=>{
     
     //lleno los clave/arreglos imagen y productos del objeto productosAgrupados.
     productosAgrupados[imagenRuta].imagenes.push(imagenRuta);//lleno el clave/arreglo imagenes con todas las rutas de imágenes
-    console.log(productosAgrupados[imagenRuta].imagenes);
+    // console.log(productosAgrupados[imagenRuta].imagenes);
     productosAgrupados[imagenRuta].productos.push(item);//lleno la clave/arreglo productos con las descripciones.
   };
 
   for (const imagenRuta in productosAgrupados) {//recorro el objeto productosAgrupados que ya está completo de productos.
-  
+    //CREO LOS PRODUCTOS AGRUPADOS.
     if (productosAgrupados[imagenRuta].imagenes.length > 1) { // Verificamos si hay imágenes repetidas
       const contenedor = document.createElement('div'); //creamos el contenedor tarjeta.
       contenedor.setAttribute('class', 'contenedorDinamicoTarjeta'); //creamos la clase
@@ -134,9 +142,15 @@ const crearProductos = (resultado)=>{
       fragment.appendChild(contenedor);
 
     } else {//Si los productos no están repetidos los creamos abajo.
-    
+      //CREO LOS PRODUCTOS NO AGRUPADOS.
       const contenedor = document.createElement('div'); //Creo el contenedor para las imagenes.
       contenedor.setAttribute('class', 'contenedorDinamicoTarjeta');//Le doy la clase.
+
+      const descripciones = document.createElement('div'); //contenedor para las descripciones de los productos.
+      descripciones.setAttribute('class', 'contenedorDescripciones'); //le creo su clase.
+
+      const descripcionProducto = document.createElement('div'); //Contenedor individual para descripciones y poder manejar display.
+      descripcionProducto.setAttribute('class', 'descripcionProducto'); // Clase para aplicar CSS a esas descripciones.
 
       const imagenes = document.createElement('img');
       imagenes.src = productosAgrupados[imagenRuta].imagenes[0];
@@ -154,11 +168,15 @@ const crearProductos = (resultado)=>{
       cantidadProducto.textContent = productosAgrupados[imagenRuta].productos[0][2]; // Tomamos la cantidad del primer producto
       cantidadProducto.setAttribute('class', 'cantidadProductos');
 
-      contenedor.appendChild(imagenes);
-      contenedor.appendChild(codigoProducto);
-      contenedor.appendChild(nombreProducto);
-      contenedor.appendChild(cantidadProducto);
+      descripcionProducto.appendChild(codigoProducto);
+      descripcionProducto.appendChild(nombreProducto);
+      descripcionProducto.appendChild(cantidadProducto);
 
+      descripciones.appendChild(descripcionProducto)
+      
+      contenedor.appendChild(imagenes);
+      contenedor.appendChild(descripciones);
+      
       fragment.appendChild(contenedor);
     }
   }

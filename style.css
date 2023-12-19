@@ -7,26 +7,38 @@
 
 :root{
     /* Paleta de colores */
-    --blanco: #e8ede7;
-    --celeste: #81bece;
-    --celeste-oscuro: #378ba4;
-    --azul: #036280;
-    --azul-oscuro: #012e4a; 
+    --natural: #e8ede7;
+    --blanco: #ffffff;
+    --verde-aqua-marina: #81bece;
+    --verde-petroleo-claro: #378ba4;
+    --verde-petroleo: #036280;
+    --azul-marino: #012e4a; 
     --rosa: #eba9cb;
-    --naranja: #fcb270; 
+    --naranja: #fcb270;
+    --error-naranja: #74BDEA; 
     
     /* Tipos de fuente */
+    @font-face {
+        font-family: "Amuse Bouche";
+        src: url("https://fontsforyou.com/fonts/a/Amuse Bouche.otf");
+    }
+    --fuente-principal: 'Poppins', sans-serif;
+    --fuente-principal-dos: 'Karla', sans-serif;
     --fuente-base: 'Open Sans', sans-serif;
+    --fuente-titulo: 'Amuse Bouche', sans-serif;
     --fuente-alternativa: 'Roboto', sans-serif;
     --fuente-alternativa-dos: 'JetBrains Mono', monospace;
     
     /* Tamaños de fuente */
-    --fuente-tamaño-estandar: 1.2em;
+    --fuente-tamaño-estandar: 1em;
+    --fuente-tamaño-estandarMas: 1.2em;
     
     /* Espesor Fuente */
-    --fuenta-fina: 300;
+    --fuente-fina: 300;
     --fuente-regular: 400;
     --fuente-media: 500;
+    --fuente-bold: 700;
+    --fuente-black: 900;
     
 }
 
@@ -37,7 +49,7 @@ html{
 }
 
 body{
-    background-color: #e8ede7;
+    background-color: var(--verde-aqua-marina);
 }
 
 @media print {    
@@ -57,7 +69,7 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    color: aliceblue;
+    color: var(--natural);
     width: 100%;
     margin-bottom: 20px;
     height: 50px; /* establece la altura del header */
@@ -67,22 +79,26 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--azul);
+    background-color: var(--azul-marino);
+    /* border: var(--azul-marino) 3px solid; */
     padding: 5px;
     height: min-content;
     width: 100%;
-    font-family: var(--fuente-base);
+    font-family: var(--fuente-principal);
+    font-weight: var(--fuente-media);
     font-size: var(--fuente-tamaño-estandar);
 }
 
-/* .contenedorBgImgHeader p{
-    font-size: 12px;
-} */
+.contenedorBgImgHeader h2{
+    font-size: 2em;
+    font-family: var(--fuente-titulo);
+    font-weight: var(--fuente-black);
+}
 
 .imgLogo{
     margin-left: 20px;
-    height: 50px;
-    width: auto;
+    height: 55px;
+    width: 120px;
 }
 
 .contenedorNombreDireccion{
@@ -103,21 +119,28 @@ body{
 .footer{
     position: fixed;
     bottom: 0;
-    color: aliceblue;
+    color: var(--natural);
+    background-color: var(--azul-marino);
     width: 100%;
     height: 50px; /* establece la altura del footer */
+}
+
+.iconosFooter{
+    width: 25px;
+    margin-right: 5px;
 }
 
 .contenedorBgImgFooter{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: var(--azul);
+    align-items: flex-start;
+    background-color: var(--azul-marino);
+    /* border: var(--azul-marino) 3px solid; */
     /* padding: 5px 20px; */
     height: max-content;
-    padding: 0px 5px;
+    padding: 0px 15px;
     width: 100%;
-    font-family: var(--fuente-base);
+    font-family: var(--fuente-principal);
     font-size: var(--fuente-tamaño-estandar);
 }
 
@@ -145,35 +168,47 @@ body{
 
 .contenedorDinamicoTarjeta{
     display: flex;
-    padding: 6px;
+    padding: 2px;
     /* padding-bottom: 2px; */
-    border: 1px solid var(--azul);
-    border-radius: 15px;
-    background-color: var(--azul-oscuro);
+    /* border: 3px solid var(--azul-marino); */
+    border-radius: 6px;
+    background-color: var(--blanco);
+    
     /* background-image: url("imagenes/Fondo\ tajeta\ 2.png"); Esta es la imagen de la tarjeta */
-    color: white;    
+    color: var(--azul-marino); 
+    font-weight: var(--fuente-media);   
     width: 385px;
-    max-height: min-content;
+    height: 110px;
     /* margin-bottom: 10px; */
     margin-top: 75px;
     margin-bottom: -40px;
+    /* justify-content: space-between; */
+    align-items: flex-start;
 }
+ 
 
 .contenedorDinamicoTarjeta p, h5 {
-    display: flex;
-    margin: 5px;
+    /* display: flex; */
+    margin: 1px;
     font-size: 1.1em;
-    font-family: var(--fuente-base);
+    font-family: var(--fuente-principal);
     font-weight: var(--fuenta-fina);
+}
+
+.contenedorDescripciones{
+ width: 100%;   
 }
 
 .descripcionProducto{
     display: flex;
+    justify-content: space-between;
 }
 
 .imagen{
-    width: 115px;
-    height: 115px;
+    width: 100px;
+    height: 100px;
+    border: outset;
+    border-radius: 5px;
 }
 
 .contenedorInput{
