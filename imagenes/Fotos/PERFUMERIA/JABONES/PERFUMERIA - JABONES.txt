@@ -3,16 +3,21 @@ Referencias de rubro PERFUMERIA - JABONES:
 Productos NO asociados:
 2218 JABON LE NID 3U
 
+2978 DOVE JABON ORIGINAL 90G - nuevo
+
 Productos asociados: 
-1 - LUX - --------------------------------- OK!!!
-A 
+1 - LUX - ------------------------------ Cargar en el sistema!!!
+A  
 1788 JABON LUX AZUL 125G
 1790 JABON LUX JAZMIN 125G
 1794 JABON LUX ORQUIDIAS NEGRAS 125G
+1731 JABON LUX VAINILLA X 3U - nuevo
 B 
 1793 JABON LUX ROSAS FRANCESAS 125G
 1792 JABON LUX SUAVIDAD DE PETALOS 125G
 1789 JABON LUX VAINILLA 125G
+1791 JABON LUX VIOLETA 125G - nuevo
+
 
 2 - SIGNO - ------------------------------------------------ OK!!!
 2215 JABON TOCADOR SIGNO TRICOLOR 3U 90G

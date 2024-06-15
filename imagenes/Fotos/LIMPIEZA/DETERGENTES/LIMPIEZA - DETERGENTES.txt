@@ -6,11 +6,12 @@ Productos NO asociados:
 
 Productos asociados:
 
-1 - ALA //Todas las descripciones fueron modificadas!!!! - -------OK!!!
+1 - ALA - Descripciones modificadas!!! ------- Cargar en el sistema!!!
+2910 POLVO MATIC ALA ACELERANTE 800G
+2915 LAVAVAJILLAS ALA LIMON 750G
+2916 ALA CONCENTRADO LIMON 300G - nuevo!!!
 2918 LAVAVAJILLAS ALA COLAGENO 750G
 2919 LAVAVAJILLAS ALA GLICERINA 750G
-2915 LAVAVAJILLAS ALA LIMON 750G
-2910 POLVO MATIC ALA ACELERANTE 800G
 
 2 - CIF - --------------------------------------------------- OK!!!
 10028 CREMA CIF ULTRA BLANCO 375G // Descripción modificada

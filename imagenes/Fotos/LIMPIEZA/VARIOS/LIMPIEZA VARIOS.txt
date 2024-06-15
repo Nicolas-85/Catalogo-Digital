@@ -1,31 +1,33 @@
 Referencias de rubro LIMPIEZA - VARIOS:
 
 Productos NO asociados:
-
-4592 CABO DE MADERA - ---------- MARCA?????
+..................................................................
 2054 ENCENDEDORES FUEGOLANDIA 25U ---- SE CAMBIÓ A VARIOS - OK!!!
 2651 ESCARBADIENTE JR 16U - ---------- SE CAMBIÓ A VARIOS - OK!!!
 941 FOSFOROS 3 PATITOS 10 CAJAS 222U - SE CAMBIÓ A VARIOS - OK!!!
 948 FOSFORO FRAGATA 10 CAJAS - ------- SE CAMBIÓ A VARIOS - OK!!!
+2110 MAQUINA DE AFEITAR BIC 3 FILOS -  SE CAMBIÓ A VARIOS - OK!!!
+3545 OFF SPRAY ALOE VERA 200CC - ----- SE CAMBIÓ A VARIOS - OK!!!
+..................................................................
+
 2216 JABON LA PERDIZ 200G - ------------------------------------- OK!!!
 2217 JABON SIGNO BLANCO 200G - ------- -------------------------- OK!!!
 4099 LAVAZAPATILLAS  - ------------------------------------------ OK!!!
-2110 MAQUINA DE AFEITAR BIC 3 FILOS -  SE CAMBIÓ A VARIOS - OK!!!
-3545 OFF SPRAY ALOE VERA 200CC - ----- SE CAMBIÓ A VARIOS - OK!!!
+540 ESPONJA MORTIMER CUADRICULADA ---------------- nuevo!!!
 3520 ROLLO ALUMINIO BOLSA 4MTS - ----- SACAR FOTOS
 3521 ROLLO PAPEL MANTECA BOLSA 4MTS -  SACAR FOTOS
 2920 VIVERE PLANCHA FACIL 810ML------- SACAR FOTOS
+1796 GUANTES PLUMITA - nuevo!!! ------ ok!!!
 
 Productos asociados: 
 
-1 - Dea - OK!!! - ----------------- CARGAR EN EL SISTEMA
+1 - Dea - OK!!! ------------------ CARGAR EN EL SISTEMA
 A
 4599 BALDE 10L DEA
 4596 BROCHE PLASTICO DEA 1U
 4579 CEPILLO DE MANO DEA CERES //Descripción modificada.
 4600 PALA BASURA DEA CABO LARGO 
 4584 LANA DE ACERO DEA 45G
-////////////////////////////////////////////QUEDÉ ACA////////////////////////////////////////////////////////
 B
 4598 ESCOBA DEA JUPITER
 4577 ESCOBILLON DEA NEPTUNO //Descripción modificada.
@@ -34,10 +36,11 @@ C
 4587 SECADOR DEA DOBLE GOMA N°40
 4585 SECADOR DEA N°40
 4586 SECADOR DEA N°50
-D
+D ------------------------------- cargar en el sistema!!!
 4581 ESPONJA DEA BRONCE
 4583 ESPONJA DE BAÑO DEA
 4580 ESPONJA DEA INOXIDABLE 
+4578 ESPONJOSA DEA - nuevo!!!
 E
 4582 ESPONJA DEA POLIESTER+ACERO
 4593 ESPONJA DEA SALVAUÑAS
@@ -51,18 +54,18 @@ G
 4589 PAÑO PARA PISO DEA
 4594 REJILLA DEA PABILO
 
-2 - BOLSA //No se si es marca.
-A
-596 BOLSA CAMISETA 40X50 10U
-593 BOLSA CONSORCIO 80X110 10U
-595 BOLSA RESIDUO 45X60 30U
-570 BOLSAS CONSORCIO 90X120 10U
-B
-592 BOLSAS CONSORCIO RECICLO 60X90 10U
-594 BOLSAS RESIDUOS 45X60 20U // Ortografía y descripción modificadas.
-591 BOLSAS RESI YO RECICLO 45x60 20u
-598 BOLSAS CONSORCIO 50X70X20U 
-590 CAMISETA DUO 30 X 40
+2 - Bolsas ------------------------------------- cargar en el sistema!!!
+595 BOLSA RESIDUO 45 X 60 X30U ----------------- "esimundi" - nuevo!!
+596 BOLSA CAMISETA 40X50 10U ------------------- "duo"
+570 BOLSAS CONSORCIO 90X120 10U ---------------- "green plast"
+590 CAMISETA DUO 30 X 40 ----------------------- "duo"
+
+2 A - Yo Reciclo-------------------------------- Cargar en el sistema!!!
+591 BOLSAS RESI YO RECICLO 45x60 20u ----------- "yo reciclo"
+592 BOLSAS CONSORCIO RECICLO 60X90 10U --------- "yo reciclo"
+593 BOLSA CONSORCIO 80X110 10U ----------------- "yo reciclo"
+594 BOLSAS RESIDUOS 45X60 20U ------------------ "yo reciclo"
+598 BOLSAS CONSORCIO 50X70X20U ----------------- "yo reciclo"
 
 4 - SALZANO - OK!!! - ---------- CARGAR EN EL SISTEMA
 A 
@@ -83,13 +86,17 @@ C
 4109 PALA SALZANO CON CABO //Descripción modificada
 4108 SECADOR SALZANO DOPPIO 41CM //Descripción modificada
 4104 SOPAPA CHICA SALZANO CON CABO
+D
+4097 ESCOBA ECONOMICA SALZANO - nuevo!!!
+4592 CABO DE MADERA FORRADO - nuevo!!!
+4098 ESCOBILLON LEON - nuevo!!!
 
 5 - OZ
 C - -------------------------------SACAR FOTOS!!!
 4703 SUAVIZANTE OZ FLORAL JOY 900ML
 4704 SUAVIZANTE OZ ISLA DE SUEÑOS 900ML
 
------------------------------------------------------------------------------------
+-----------------------------------------------------------------------
 5 - OZ
 A 
 4702 DETERGENTE OZ ALOE VERA 500ML - SE CAMBIÓ A LIMPIEZA - DETERGENTES 
@@ -142,7 +149,8 @@ B
 12 - RANCHERAS - ----------------------- SE CAMBIÓ A VARIOS!!
 943 VELAS RANCHERAS MEDIANAS 4U 120G
 944 VELAS RANCHERAS CHICAS 8U 88G
------------------------------------------------------------------------------------
+----------------------------------------------------------------
+
 13 - Maria Luisa - OK!!! - ------------ CARAR EN EL SISTEMA
 A  
 4571 REPASADOR SARGA ECO MARIA LUIS 40X60 
@@ -153,20 +161,23 @@ B
 4575 REJILLA PABILO MARIA LUISA 38X40CM 
 4576 TRAPO DE PISO 45X60 MARIA LUISA
 
-13 - Virulana - OK!!! - ----------------CARGAR EN EL SISTEMA
+14 - Virulana - OK!!! - ------------- CARGAR EN EL SISTEMA!
 A  
 1500 VIRULANA FUERTE
 1508 VIRULANA ROLLITOS 10U
 1509 VIRULANA CUADRADA ANTIBAC
+B 
+1507 VIRULANA PAÑO TWIST X 3U
 1511 VIRULANA PAÑO TWIST
 1514 VIRULANA PAÑO PISO AMARILLO
-B 
+C
 1498 VIRULANA ESCOBA MULTIUSO
 1515 VIRULANA SECADOR 30 CM
 1506 VIRULANA SECADOR 40CM
 1513 VIRULANA PALA CLICK
+1499 VIRULANA ESCOBILLON RINCO
 
-14 - Downy - OK!!! - ------------------ CARGAR EN EL SISTEMA
+15 - Downy - OK!!! - ------------------ CARGAR EN EL SISTEMA
 2101 DOWNY BOTELLA BRISA FRESCA 500ML
 2109 DOWNY POUCH BRIS FRES 400ML
 2111 DOWNY FLOR DE VERANO X 400ML

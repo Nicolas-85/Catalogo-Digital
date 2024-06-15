@@ -1,0 +1,34 @@
+﻿Referencias de rubro BAZAR:
+
+Productos NO asociados:
+
+Productos agrupados por imagenes:
+
+Imágenes que están pero no figura en la lista:
+
+1 Diawara Plast
+A ---------------------------------------- OK!!!
+5370 SET DE MATE COMPLETO ESTAMPADO
+5371 MATE ESTAMPADO + BOMBILLA EN BLISTER 
+B ---------------------------------------- OK!!!
+5373 SET PLATO+TAZA+JABONERA INFANTIL 
+5374 SET PLATO+BOTELLA ANIMALITO 
+C ---------------------------------------- OK!!!
+5375 JARRA COLOR CON TAPA 1.125L 
+5376 JARRA COLOR CON TAPA 2L 
+5381 JARRA ESTAMPADA CON TAPA 1.125L 
+D ---------------------------------------- OK!!!
+5377 VASO CONICO COLOR 400ML 
+5382 VASO INFANTIL TAPA HELADO CON SORBETE
+5387 BOTELLA PUSH PULL COLOR 600CC  
+E ---------------------------------------- OK!!!
+5378 TAZA CONICA LISA 
+5379 TAZA CONICA ESTAMPADA 
+5372 TAZA CONICA ESTAMPADA EN CAJA DECO 
+F ---------------------------------------- OK!!!
+5380 MOOLDE PARA 6 HELADITOS 
+5383 HERMETICO N°1 TAPA COLOR 0.25L 
+5384 HERMETICO N°2 TAPA COLOR 0.400L 
+5385 HERMETICO N°3 TAPA COLOR 0.600L 
+5386 HERMETICO N°4 TAPA COLOR 1.100L
+

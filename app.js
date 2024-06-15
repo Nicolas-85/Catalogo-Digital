@@ -22,13 +22,7 @@ entrada.addEventListener('change', ()=>{
         for(let item of arrayDeResultado){ //recorremos cada string con los datos.
             arrayDeResultado2.push(item.split("'")); //transformamos cada elemento string en un arreglo con cada dato.
         };
-        // const arrayDeResultado3 = []; //creamos un arreglo vacío que va a ser el definitivo.
 
-        // for(let item of arrayDeResultado2){
-        //     arrayDeResultado3.push(item.filter((element)=>{ //filtramos los elementos del array para poder eliminar comillas de más.
-        //         return element.length > 1; 
-        //     })
-        // )};
         const arrayDeResultado3 = arrayDeResultado2.map((arreglo) => {
           return arreglo.filter(element => element !== ' ' && element !== ',');
       });
@@ -50,27 +44,34 @@ entrada.addEventListener('change', ()=>{
     contenido.readAsText(archivo);
 });
 
-// const obtenerRutaImagen = (rutaLocalCompleta)=>{
-//   // imagenes\Fotos\noHayImagen.jpg
-//   console.log(rutaLocalCompleta);
-//   const rutaInputCompleta = rutaLocalCompleta; //Tomo la ruta completa del archivo .txt
-//   const rutaRelativa = rutaInputCompleta.replace("D:\\", "");//Quitamos el "D:/" de la ruta y generamos una relativa
-//   const rutaBase = 'imagenes/'; //Genero ruta base para las imágenes dentro del directorio
-//   return `${rutaBase}${rutaRelativa}`;//armo la ruta completa de las imágenes con relativa + base
-// };
-
+//Esta función Crea una nueva ruta de imagen donde que permita buscar la imagen dentro del proyecto.
 const obtenerRutaImagen = (rutaLocalCompleta) => {
   if (rutaLocalCompleta && rutaLocalCompleta.trim() !== '') {
     const rutaInputCompleta = rutaLocalCompleta;
     const rutaRelativa = rutaInputCompleta.replace("D:\\", "");
+    //console.log(rutaRelativa);
+    const rubros = obtenerRutaCategorias(rutaRelativa);
+    //console.log(rubros);
     const rutaBase = 'imagenes/';
-    // console.log(rutaBase + rutaRelativa);
-    // console.log(rutaRelativa);
     return `${rutaBase}${rutaRelativa}`;
   } 
-  // else {
-  //   return 'imagenes/Fotos/noHayImagen.jpg';
-  // }
+};
+
+//Obtengo el rubro y sub rubro en un arreglo!.
+const obtenerRutaCategorias = (rutaLocalCompleta) => {
+    if (rutaLocalCompleta && rutaLocalCompleta.trim() !== '') {
+        const rutaInputCompleta = rutaLocalCompleta;
+        const rutaRelativa = rutaInputCompleta.replace("D:\\", "");
+        const rutaElementos = rutaRelativa.split("\\");
+        // Verificamos que haya al menos tres elementos en la ruta
+        if (rutaElementos.length >= 3) {
+            const categoriaPrincipal = rutaElementos[1]; // Segundo elemento de la ruta
+            const categoriaSecundaria = rutaElementos[2]; // Tercer elemento de la ruta
+            return [categoriaPrincipal, categoriaSecundaria];
+        }
+    }
+    // En caso de que no se pueda obtener la categoría, se puede devolver un arreglo vacío o null
+    return null;
 };
 
 // Función que crea las tarjetas de productos, asociados y NO asociados.
@@ -82,22 +83,28 @@ const crearProductos = (resultado)=>{
   for(const item of resultado){ //recorremos el arreglo con todos los productos para leer sus datos.
     const imagenRuta = obtenerRutaImagen(item[3]);//la función para crear la ruta la saqué afuera de esta función.
     // console.log( imagenRuta);
+    const rubroYSubRubro = obtenerRutaCategorias(imagenRuta);
+    //console.log(rubroYSubRubro);
+
     if(!productosAgrupados[imagenRuta]){//Si no existen claves "imagenRuta" en el objeto productosAgrupados.
       productosAgrupados[imagenRuta] = {//creo la clave imagenRuta y como valor un objeto de dos propiedades.
         imagenes: [],//propiedad imagen.
-        productos: []//propiedad producto.
+        productos: [],//propiedad producto.
+        rubroSubRubro: []//propiedad rubro.
       };
+      //lleno la clave rubros con los areglos de rubro y subrubro.
+      productosAgrupados[imagenRuta].rubroSubRubro.push(rubroYSubRubro);
+      //lleno los clave/arreglos imagen y productos del objeto productosAgrupados.
+      productosAgrupados[imagenRuta].imagenes.push(imagenRuta);//lleno el clave/arreglo imagenes con todas las rutas de imágenes
+      // console.log(productosAgrupados[imagenRuta].imagenes);
+      productosAgrupados[imagenRuta].productos.push(item);//lleno la clave/arreglo productos con las descripciones.
     };
-    
-    //lleno los clave/arreglos imagen y productos del objeto productosAgrupados.
-    productosAgrupados[imagenRuta].imagenes.push(imagenRuta);//lleno el clave/arreglo imagenes con todas las rutas de imágenes
-    // console.log(productosAgrupados[imagenRuta].imagenes);
-    productosAgrupados[imagenRuta].productos.push(item);//lleno la clave/arreglo productos con las descripciones.
   };
+  console.log(productosAgrupados);
 
   for (const imagenRuta in productosAgrupados) {//recorro el objeto productosAgrupados que ya está completo de productos.
     //CREO LOS PRODUCTOS AGRUPADOS.
-    if (productosAgrupados[imagenRuta].imagenes.length > 1) { // Verificamos si hay imágenes repetidas
+    if (productosAgrupados[imagenRuta].imagenes.length > 1) { //Verificamos que haya más de una imagen por producto, es decir, repetidos.
       const contenedor = document.createElement('div'); //creamos el contenedor tarjeta.
       contenedor.setAttribute('class', 'contenedorDinamicoTarjeta'); //creamos la clase
 

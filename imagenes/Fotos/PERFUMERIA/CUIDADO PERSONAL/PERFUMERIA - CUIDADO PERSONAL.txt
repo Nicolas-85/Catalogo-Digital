@@ -18,6 +18,10 @@ Productos NO asociados:
 4943 TOALLITAS HUGGIES HUMEDAS 48U - -------- OK!!!
 4944 TOALLITAS HUMEDAS Q SOFT 50U - --------- OK!!!
 
+833 ASTRA MAQUINA DE AFEITAR 2 FILOS - nuevo -- cargar en el sistema!!
+
+818 PROF TULIPAN X 24+2 - nuevo! - cargar en el sistema!
+
 Productos asociados: 
 
 1 - HINDS - ------------------------------ OK!!
@@ -48,12 +52,17 @@ Productos asociados:
 3028 TOALLITA CALIPSO CON GEL C/ALAS 8U
 3031 TOALLITA CALIPSO NORMAL C/ALAS 8U 
 
-6 - GILLETE - -------------------------------------- OK!!!
+6 - GILLETTE --------------------------- CARGAR EN EL SISTEMA!!!
+A 
 684 PRESTOBARBA GILLETTE 3 FILOS VENUS
 2108 PRESTOBARBA GILLETTE AZUL 2 FILOS
-2104 PRESTOBARBA GILLETTE AZUL 2 FILOS 10U -VER!!
+2104 PRESTOBARBA GILLETTE AZUL 2 FILOS 20U - UNIDADES CORREGIDAS!!!
+2139 PRESTOBARBA 3 FILOS DERMA
+B 
 2105 PRESTOBARBA GILLETTE GRIS 3 FILOS
 685 REPUESTO GILLETTE PRESTOBARBA 3 FILOS
+2107 PRESTOBARBA BLIST 2U X 3 FILOS
+2106 MACH 3 FILOS SENSITIVE
 
 8 - LINA - ----------------------------------------- OK!!!
 1795 TOALLITAS LINA AZUL 16U
@@ -70,9 +79,11 @@ Productos asociados:
 4973 ESPUMA DE AFEITAR FOAMI 312G - --- LISTA NUEVA
 4962 MACH 3 GEL DE AFEITAR 72ML
 
-11 - Always - ----------------------------------------- OK!!!
+11 - Always - ------------------------ Cargar en el sistema!!
 1750 TOALLITA ALWAYS PROTECT SUAVE 8U 
 2114 ALWAYS AJUSTE PERF X 8U - ------ LISTA NUEVA
+2100 ALWAYS EXTRA PROT SUAVE 8U - nueva - 
+
 
 ///////////////Cambiar de rubro:
 

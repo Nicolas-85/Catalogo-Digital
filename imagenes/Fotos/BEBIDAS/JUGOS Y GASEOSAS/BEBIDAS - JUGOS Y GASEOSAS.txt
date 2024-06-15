@@ -4,34 +4,35 @@ alejandra 206
 
 Asociar productos:
 
-1 - OK!!!
+1 - Citric ------------------------ OK!!!
 4367 CITRIC NARANJA 1.5L
 4365 CITRIC NARANJA 1L
 4366 CITRIC NARANJA 500CC
 
 170826266
 
-2: A - OK!!!
+2 - Baggio ------------------------ OK!!!
+A 
 428 JUGO BAGGIO MULTIFRUTAL 1L
 429 JUGO BAGGIO DURAZNO 1L
 430 JUGO BAGGIO MANZANA 1L
 
-2: B - OK!!!
+B --------------------------------- OK!!!
 422 JUGO BAGGIO MULTIFRUTAL 200CC
 423 JUGO BAGGIO DURAZNO 200CC
 424 JUGO BAGGIO MANZANA 200CC
 
-2: C - OK!!!
+C --------------------------------- OK!!!
 425 JUGO BAGGIO NARANJA 200CC
 431 JUGO BAGGIO NARANJA 1L
 446 JUGO BAGGIO DURAZNO 125CC
 
-2: D - OK!!!
+D ---------------------------------- OK!!!
 447 JUGO BAGGIO MANZANA 125CC
 449 JUGO BAGGIO MULTIFRUTAL 125CC
 450 JUGO BAGGIO NARANJA 125CC
 
-3 - OK!!!
+3 - Saldan --------------------------OK!!!
 1021 JUGO SALDAN NARANJA 1.5L
 1020 JUGO SALDAN POMELO 1.5L
 
@@ -68,3 +69,7 @@ Asociar productos:
 10 - SPEED - ----------------------------- OK!!!
 350 SPEED 250CC - ---------------------------- VIENE DE LIBRERIA
 352 SPEED XL 500ML //Modificar gramaje a CC ----- VIENE DE LIBRERIA
+
+11 - Coca Cola
+3233 
+346 COCA COLA 1500 DESC

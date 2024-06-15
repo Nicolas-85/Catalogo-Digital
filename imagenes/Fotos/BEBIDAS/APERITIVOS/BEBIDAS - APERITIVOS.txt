@@ -1,37 +1,40 @@
 ﻿Referencias de rubro APERITIVOS:
 
-Asociar productos:
-2 - OK!!!
+Productos NO Asociados:
+
+
+Productos Asociados:
+2 - Branca ------------------------- OK!!!
 1417 FERNET BRANCA 1L
 1501 FERNET BRANCA 450CC
 1145 FERNET BRANCA 750CC
 1418 FERNET BRANCA MENTA 450CC
 1419 FERNET BRANCA MENTA 750CC
 
-3 - OK!!!
+3 - Vitone ------------------------- OK!!!
 1150 FERNET VITTONE 450CC
 1419 FERNET VITTONE 750CC
 
-4 - OK!!!
+4 - Gancia ------------------------- OK!!!
 2017 GANCIA LIMA LIMON LATA 473CC
 1505 GANCIA 450CC
 1502 GANCIA 950CC
 
-5 - OK!!!
+5 - Linares ------------------------ OK!!!
 327 LINARES LIMON 1.5L
 1013 LINARES LIMON LIGHT 1.5L
 325 LINARES SERRANO 1.5L
 329 LINARES SERRANO LIGHT 1.5L
 
-6 - OK!!!
+6 - Martini ------------------------ OK!!!
 1261 MARTINI BIANCO 1L
 1264 MARTINI ROSSO 1L
  
-7 - OK!!!
+7 - Tacconi ------------------------ OK!!!
 3821 TACCONI LIMON 1.5L
 3822 TACCONI SERRANO 1.5L
 
-8 - Terma ------------------ OK!!!
+8 - Terma -------------------------- OK!!!
 A
 3828 TERMA CITRUS 1.35L
 3827 TERMA LIMON 1.35L
@@ -41,9 +44,17 @@ B
 3820 TERMA POMELO ROSADO 1.35L
 3825 TERMA SERRANO 1.35L
 
-9 - OK!!!                
+9 - Torres ------------------------- OK!!!                
 3823 TRES TORRES LIMON 1.5L
 3824 TRES TORRES SERRANO 1.5L
+
+10 - Carpano ----------------------- CARGAR EN EL SISTEMA!!!
+3044 CARPANO ROSSO X 950CC
+3077 CARPANO BIANCO X 950CC
+
+11 - Mingo ------------------------- CARGAR EN EL SISTEMA!!!
+3298 MINGO LIMON 355
+3304 MINGO MARACUYA 355
 
 Cambio de rubro:
 1491 FRIZZE EVO BLUE NEW 1L - SE CAMBIÓ A SIDRAS Y ESPUMANTES
