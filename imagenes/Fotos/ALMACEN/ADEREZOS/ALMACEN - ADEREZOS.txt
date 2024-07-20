@@ -1,7 +1,7 @@
 ﻿Imagenes que están pero no figuran en la lista:
 
 Unificar productos por imágenes:
-1 - Hellmanns ------------------------ CARGAR EN EL SISTEMA!!!
+1 - Hellmanns ------------------------ ok!!!
 A 
 1377 MAYONESA HELLMANNS VEGANA 250G
 1378 MAYONESA HELLMANNS AHUMADA 250G
@@ -28,6 +28,15 @@ C
 3 - Zavora - ------------------ OK!!! 30/11/23
 1382 MOSTAZA SAVORA 60G 30U
 1381 MOSTAZA SAVORA ORIGINAL 250G
+
+4 - Menoyo ----------------------- ok!
+A
+5517 MAYONESA MENOYO 250CC 
+5518 MAYONESA MENOYO 100CC X 20U
+5519 MAYONESA MENOYO 500CC
+B
+5520 MOSTAZA MENOYO 250CC
+5521 MOSTAZA MENOYO 60G X 30U
 
 CAMBIAR DE RUBRO
 3649 EXQUISITA GELATINALIGHT DE FRUTILLA 40G - SE CAMBIÒ A ALMACEN - VARIOS

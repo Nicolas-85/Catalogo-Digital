@@ -1,7 +1,4 @@
-Referencias de rubro LIMPIEZA - AEROSOLES Y LIMPIAD:
-
-Productos NO asociados:
-
+﻿Referencias de rubro LIMPIEZA - AEROSOLES Y LIMPIAD:
 
 Productos asociados:
 1 - AYUDIN - ------------------------------- OK!!! 
@@ -9,7 +6,7 @@ Productos asociados:
 2261 AYUDIN AERO DESINFEC ORIGINAL 332ML
 2260 AYUDIN AERO FRESCURA MATINAL 332ML
 
-2 - CIF -------------------------------- VOLVER A CARGAR!!! 
+2 - CIF -------------------------------- ok!!! 
 A
 2945 CIF CREMA ORIGINAL 375G
 10027 CIF GEL 2 EN 1 250ML
@@ -26,12 +23,11 @@ A
 3513 GLADE AEROSOL FLORAL 360CC
 3510 GLADE AEROSOL JAZMIN 360CC
 3508 GLADE AEROSOL LAVANDA
-B -------------------------------- CARGAR EN EL SISTEMA!!!
+B 
 3511 GLADE AEROSOL LIMON 360CC
 3512 GLADE AEROSOL M DE CAMPO 360CC
 3514 GLADE AEROSOL VAINILLA 360CC
-3515 GLADE AEROSOL HARMONY 360CC - cargar en el sistema!!!
-
+3515 GLADE AEROSOL HARMONY 360CC 
 
 4 - Dea - ------------------------------- OK!!!
 A 
@@ -73,15 +69,15 @@ B
 2282 SELTON NEGRO MATA CUCARACHAS 360ML
 2283 SELTON ROJO ACCION INSTANTANEA 360ML
 
-8 - Blem --------------------------- CARGAR EN EL SISTEMA!!!
+8 - Blem --------------------------- ok!!!
 1966 BLEM MARRON 360CC 
 1967 BLEM NARANJA 360CC 
 
-9 - Lysoform ------------------------ Cargar en el sistema!!!
+9 - Lysoform ---------------------------- ok!!!
 1940 LYSOFORM ORIGINAL 360CC 
-1939 LYSOFORM A. MONTAÑA 360ML - nuevo!! - rubro???
+1939 LYSOFORM A. MONTAÑA 360ML - nuevo!! 
 
-10 -  Suiza ------------------------- Cargar en el sistema - colocar rubro!
+10 -  Suiza ------------------------- ok!!!
 1512 SUIZA AUTOBRILLO DP NATURAL 400
 1510 SUIZA AUTOBRILLO DP NATURAL 900CC
 

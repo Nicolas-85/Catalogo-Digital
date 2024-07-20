@@ -1,17 +1,13 @@
-Referencias de rubro FIAMBRE:
----------- Productos NO asociados:
+﻿Referencias de rubro FIAMBRE:
 
 ---------- Productos Asociados:
-1 - Don Yeyo -------------------------- CARGAR EN EL SISTEMA!!!
+1 - Don Yeyo -------------------------- OK!!!
+A
 2451 RAVIOLES YEYO RICOTA
 2445 RAVIOLES YEYO 4 QUESOS
 2455 RAVIOLES YEYO CARNE ESPINACA 1KG
 2446 RAVIOLES YEYO ESP Y POLLO
 2434 RAVIOLES POLLO Y ESPINACA 500G
-
----------- Cambio de rubro:
- 
----------- Corregir descripción a...:
-
-
-
+B
+2447 RAVIOLES YEYO CARNE Y ESPINACA
+2450 RAVIOLES YEYO ESPINACA Y RICOTA

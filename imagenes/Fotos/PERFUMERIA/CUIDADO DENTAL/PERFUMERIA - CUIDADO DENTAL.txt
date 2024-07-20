@@ -1,8 +1,6 @@
-Referencias de rubro PERFUMERIA - CUIDADO DENTAL:
+﻿Referencias de rubro PERFUMERIA - CUIDADO DENTAL:
 
 Productos NO asociados:
-
-2276 ODOLITO 50G - --------------------------- OK!!!
 2294 ODOLITO 50G - CHEQUEAR PORQUE ESTÁN REPETIDOS.
 
 
@@ -25,7 +23,7 @@ B
 2989 KOLYNOS DENTIFRICO TRIPLE ACCION 90G
 2993 KOLYNOS FRESCURA INTEN 70G
 
-3 - Oral-B - LISTA NUEVA - ---------------------- Cargar en el sistema!!
+3 - Oral-B - LISTA NUEVA - ---------------------- ok!!!
 4935 CEPILLO DENTAL ORAL B INDICADOR X2U
 4936 CEPILLO DENTAL ORAL B KIDS 1U
 4937 CEPILLO DENTAL ORAL B CLEAN X1U

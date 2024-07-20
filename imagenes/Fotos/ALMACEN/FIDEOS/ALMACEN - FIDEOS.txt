@@ -1,7 +1,7 @@
 ﻿Referencias de rubro FIDEOS:
 
-Asociar productos:
-1 - Matarazo ----------------------- CARGAR EN EL SISTEMA!!!
+---------- Productos Asociados:
+1 - Matarazo ----------------------- ok!!!
 A 
 4450 FIDEO MATARAZZO TALLARIN 500G
 4451 FIDEO MATARAZZO SPAGHETTI 500G
@@ -47,7 +47,7 @@ A
 2789 FIDEO KNORR CAB ANGEL 500G
 2801 FIDEO KNORR CARACOLES 500G
 2783 FIDEO KNORR CODITO 500G
-B ----------------------------------- CARGAR EN EL SISTEMA!!!
+B ----------------------------------- ok!!!
 2786 FIDEO KNORR DEDALITO 500G
 2791 FIDEO KNORR FORATTI 500G
 2790 FIDEO KNORR MOÑO 500G
@@ -71,7 +71,7 @@ B ----------------------------------- CARGAR EN EL SISTEMA!!!
 4282 GIACOMO QUESO Y JAMON 500G
 4283 GIACOMO QUESO Y JAMON 250G
 
-9 - Galletti - ---------------------------- CARGAR EN EL SISTEMA!!!
+9 - Galletti - ---------------------------- ok!!!
 A 
 1944 TALLARINES SEMOLADO AMARILLO GALLETTI
 1945 TALLARINES SEMOLADO VERDE GALLETTI 400
@@ -81,13 +81,13 @@ B
 1949 FIDEO GALLETTI MOÑO AMARILLO 400G
 1950 MOÑO TRICOLOR GALLETTI X 400G
 
-10 - Bonavita ----------------------------- CARGAR EN EL SISTEMA!!!
+10 - Bonavita ----------------------------- ok!!!
 5242 FIDEO BONAVITA GUISERO 500G
 5243 FIDEO BONAVITA LARGOS 500G
 5240 FIDEO BONAVITA MOÑOS 500G
 5241 FIDEO BONAVITA SOPEROS 500G
 
-11 - Sol Pampeano ------------------------- CARGAR EN EL SISTEMA!!!
+11 - Sol Pampeano ---------------------- ok!!!
 A 
 5225 FIDEO SOL PAMPEANO TIRABUZON 500G
 5226 FIDEO SOL PAMPEANO RIGATTIS 500G
@@ -97,11 +97,10 @@ B
 5229 FIDEO SOL PAMPEANO SPAGUETTIS 500G
 5230 FIDEO SOL PAMPEANO TALLARIN 500G
 
-12 - Don Yeyo -------------------------- CARGAR EN EL SISTEMA!!!
-2453 FIDEOS FINOS DON YEYO - nuevo!!!
+12 - Don Yeyo -------------------------- ok!!!
 2452 FIDEOS ANCHOS DON YEYO
-
-
+2453 FIDEOS FINOS DON YEYO - nuevo!!!
+2456 FIDEOS FUSILES YEYO
 
 Corregir descripción:
 4280 GIACOMO CARNE 500G

@@ -1,4 +1,4 @@
-Referencias de rubro LIMPIEZA - JABONES LIQUIDOS:
+﻿Referencias de rubro LIMPIEZA - JABONES LIQUIDOS:
 
 Productos NO asociados: - ------------ OK!!!
 2911 ALA LIQUIDO MATIC 800ML
@@ -18,16 +18,16 @@ Productos Asociados: -------------- SE CAMBIÓ A PERFUMEÍA JABONES - OK!!!
 4705 JABON LIQ OZ LIMPIEZA INTENSA 900ML - VIENE DE LIMPIEZA - DETERGENTES
 4706 JABON LIQ OZ LIMPIEZA INTENSA 300ML - VIENE DE LIMPIEZA - DETERGENTES 
 
-3 - Ariel ------------------------ Cargar en el sistema!!!
-1749 ARIEL MAXIMA LIMPIEZA POUCH 800 //Error de ortografía corregido
-1759 ARIEL BOTELLA MAXIMA LIMPIEZA 800 - nuevo!!!
+3 - Ariel ---------------------------- ok!!!
+1749 ARIEL MAXIMA LIMPIEZA POUCH 800 
+1759 ARIEL BOTELLA MAXIMA LIMPIEZA 800
 
-4 - Vívere ------------------------ Cargar en el sistema!!
+4 - Vívere ------------------------ ok!!!
 2922 VIVERE CLASICO 900ML
 2921 VIVERE EXPLOCION FLORAL 810ML
 2920 VIVERE PLANCHA FACIL 810ML
 
-5 - Villene ------------------------- Cargar en el sistema!!
+5 - Villene ------------------------- ok!!!
 1524 VILLENE JABON LIQ COCO 240ML
 1525 VILLENE JABON LIQ LEMON 240ML
 

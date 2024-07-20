@@ -90,21 +90,24 @@ const crearProductos = (resultado)=>{
       productosAgrupados[imagenRuta] = {//creo la clave imagenRuta y como valor un objeto de dos propiedades.
         imagenes: [],//propiedad imagen.
         productos: [],//propiedad producto.
-        rubroSubRubro: []//propiedad rubro.
+        //rubroSubRubro: []//propiedad rubro.
       };
       //lleno la clave rubros con los areglos de rubro y subrubro.
-      productosAgrupados[imagenRuta].rubroSubRubro.push(rubroYSubRubro);
+      //productosAgrupados[imagenRuta].rubroSubRubro.push(rubroYSubRubro);
       //lleno los clave/arreglos imagen y productos del objeto productosAgrupados.
       productosAgrupados[imagenRuta].imagenes.push(imagenRuta);//lleno el clave/arreglo imagenes con todas las rutas de imágenes
       // console.log(productosAgrupados[imagenRuta].imagenes);
       productosAgrupados[imagenRuta].productos.push(item);//lleno la clave/arreglo productos con las descripciones.
+    }else{
+      productosAgrupados[imagenRuta].productos.push(item);
     };
   };
-  console.log(productosAgrupados);
-
+  //console.log(productosAgrupados);
+  
+  // Agrupar productos por imagen
   for (const imagenRuta in productosAgrupados) {//recorro el objeto productosAgrupados que ya está completo de productos.
     //CREO LOS PRODUCTOS AGRUPADOS.
-    if (productosAgrupados[imagenRuta].imagenes.length > 1) { //Verificamos que haya más de una imagen por producto, es decir, repetidos.
+    if (productosAgrupados[imagenRuta].productos.length > 1) { //Verificamos que haya más de una imagen por producto, es decir, repetidos.
       const contenedor = document.createElement('div'); //creamos el contenedor tarjeta.
       contenedor.setAttribute('class', 'contenedorDinamicoTarjeta'); //creamos la clase
 

@@ -4,7 +4,7 @@ Sacar foto de:
 22 PAN DULCE DEBUEL SIN FRUTA 500G
 
 Agrupar por imágenes:
-1 -------------------------------------- CARGAR EN EL SISTEMA!!!
+1 -------------------------------------- ok!!!
 1 PALMERITAS DEUBEL 180G
 8 PERSIANITA DEUBEL MEMBRILLO 200G
 9 PERSIANITA DEUBEL BATATA 200G
@@ -22,17 +22,17 @@ Agrupar por imágenes:
 34 BUDIN DEUBEL MARMOLADOS 250G
 35 BUDIN DEUBEL C/CHIPS CHOCO 250G	
 
-4 ------------------------------------- CARGAR EN EL SISTEMA!!!
+4 ------------------------------------- ok!!!
 16 PAN DULCE C/FRUTAS DEUBEL 600G 
 17 PAN DUCLE C/CHOCOLATE DEUBEL 400G
 18 PAN DULCE C/FRUTAS DEUBEL 600G
 19 PAN DULCE C/FRUTAS DEUBEL 400G
 
-5 ------------------------------------- CARGAR EN EL SISTEMA!!!
+5 ------------------------------------- ok!!!
 20 PAN DULCE DON ENRIQUE PREMIUM x 1kG
 24 PAN DULCE DON ENRIQUE x KG
 
-6 ------------------------------------- CARGAR EN EL SISTEMA!!!
+6 ------------------------------------- ok!!!
 21 PAN DULCE C/ALMENDRAS DEUBEL 590G  
 25 PAN DULCE LIMIDO FRUTA 400G 
 42 PAN DULCE LIMIDO C/CHOLATE 350G

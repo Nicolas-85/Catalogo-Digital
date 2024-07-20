@@ -1,27 +1,19 @@
-﻿Referencias de rubro TOMATES Y SALSAS:
+﻿Referencias de rubro ALMACEN - PANIFICACION:
 
-Productos NO asociados:
+---------- Productos NO asociados:
 
-2473 PAN DE PANCHO YEYO 6U - nuevo!!! - CARGAR EN EL SISTEMA!!!
+2473 PAN DE PANCHO YEYO 6U - nuevo!!! - OK!!!
 
-Productos asociados:
-1 - Veneziana -------------------------- CARGAR EN EL SISTEMA
+---------- Productos asociados:
+1 - Veneziana -------------------------- ok!!!
 A 
 1535 PAN DE CAMPO VENEZIANA 400G
 1531 PAN DE HAMBURGUESA LA VENEZIANA X4U
 1530 PAN DE PANCHO LA VENEZIANA X6U 210G
 1532 PAN LACTAL FAMILIAR LA VENEZIANA 600G
 1533 PAN LACTAL LA VENEZIANA 360G
-B -------------------------------------- CARGAR EN EL SISTEMA
-1538 PAN INTEGRAL CORMILLOT X 360G ----- DESCRIPCIÓN CORREGIDA 
+B 
+1538 PAN INTEGRAL CORMILLOT X 360G
 1536 PAN MULTICERAL CORMILLOT 410G
 1539 PAN TRISALVADO CORMILLOT 360G
-1540 PAN LACTAL INTEGRAL SALVADO 600G -- MISMA DESCRIPCIÓN QUE 1538???
-
-Sacar fotos de:
-
-Correjir descripción o agregar marca:
-
-
- 
-							
+1540 PAN LACTAL INTEGRAL SALVADO 600G						

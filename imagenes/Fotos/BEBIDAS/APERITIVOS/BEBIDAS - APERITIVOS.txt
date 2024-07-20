@@ -1,7 +1,7 @@
 ﻿Referencias de rubro APERITIVOS:
 
 Productos NO Asociados:
-
+1263 FERNET COLA CASSONI - OK!!!
 
 Productos Asociados:
 2 - Branca ------------------------- OK!!!
@@ -48,19 +48,13 @@ B
 3823 TRES TORRES LIMON 1.5L
 3824 TRES TORRES SERRANO 1.5L
 
-10 - Carpano ----------------------- CARGAR EN EL SISTEMA!!!
+10 - Carpano ----------------------- OK!!!
 3044 CARPANO ROSSO X 950CC
 3077 CARPANO BIANCO X 950CC
 
-11 - Mingo ------------------------- CARGAR EN EL SISTEMA!!!
+11 - Mingo ------------------------- OK!!!
 3298 MINGO LIMON 355
 3304 MINGO MARACUYA 355
 
 Cambio de rubro:
-1491 FRIZZE EVO BLUE NEW 1L - SE CAMBIÓ A SIDRAS Y ESPUMANTES
- 
-Corregir descripción:
-
-Sacar fotos de:	
-1263 FERNET COLA CASSONI - OK!!!
-	
+1491 FRIZZE EVO BLUE NEW 1L - SE CAMBIÓ A SIDRAS Y ESPUMANTES	

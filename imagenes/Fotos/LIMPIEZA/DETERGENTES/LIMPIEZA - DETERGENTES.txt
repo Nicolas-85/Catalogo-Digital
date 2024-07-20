@@ -1,4 +1,4 @@
-Referencias de rubro LIMPIEZA - DETERGENTES:
+﻿Referencias de rubro LIMPIEZA - DETERGENTES:
 
 Productos NO asociados:
 2265 AYUDIN LAVANDINA EN GEL LAVANDA 700ML - CAMBIÓ A LIMPIEZA LAVANDINAS
@@ -6,7 +6,7 @@ Productos NO asociados:
 
 Productos asociados:
 
-1 - ALA - Descripciones modificadas!!! ------- Cargar en el sistema!!!
+1 - ALA - Descripciones modificadas!!! ------- ok!!!
 2910 POLVO MATIC ALA ACELERANTE 800G
 2915 LAVAVAJILLAS ALA LIMON 750G
 2916 ALA CONCENTRADO LIMON 300G - nuevo!!!

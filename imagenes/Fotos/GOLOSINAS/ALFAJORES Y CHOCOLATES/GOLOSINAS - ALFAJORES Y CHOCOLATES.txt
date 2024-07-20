@@ -14,14 +14,14 @@
 1172 kIT KAT 4 FINGER LECHE 5G--------------OK!!!
 
 532 ALF FULBITO SABOR MANI 30G - OK!!!
-734 BOMB. DANCING 8,5G 50U SURTIDOS ---- CARGAR EN EL SISTEMA!!!
+734 BOMB. DANCING 8,5G 50U SURTIDOS ---- OK!!!
 
 2024 CHOC TOKKE DDL 72G ------ CARGAR EN EL SISTEMA!!!
 
 
 
 ---------- Productos asociados:
-1 - GUAYMAYEN ------------------------------------- CARGAR EN EL SISTEMA!!!
+1 - GUAYMAYEN ------------------------------------- OK!!!
 A
 260 ALFAJOR SIMPLE GUAYMALLEN BLANCO 40 //Descripción: queda así como está!
 261 ALFAJOR SIMPLE GUAYMALLEN NEGRO 40 // Idem anterior
@@ -65,14 +65,14 @@ B
 269 FANTOCHE BLANCO TRIPLE 85G
 270 FANTOCHE NEGRO TRIPLE 85G
 
-6: HAMLET -------------------------------------Cargar en el sistema!!!
+6: HAMLET ------------------------------------- OK!!!
 745 HAMLET ALMENDRA MANI 42G 21U //Descripción: modificada
 742 HAMLET CHOCOLATOSO 42G 21U //Descripción: modificada
 744 HAMLET YOGIRT FRUTILLA 42G //Descripción: modificada
 741 HAMLET 42G 21U BICOLOR
 747 HAMLET 42G 21U LECHE/COKIES
 
-7 - Jorgito - -------------------------OK!!!
+7 - Jorgito - ------------------------- OK!!!
 A
 1571 ALFAJOR JORGITO FRUTA 50G 
 1572 ALFAJOR JORGITO BLANCO 50G 
@@ -117,7 +117,7 @@ G
 1555 CHOC FELFORT LICORITAS 20G 25U
 1557 CHOC FELFORT MEDALLON D/LECHE 21G 20U
 1558 CHOC FELFORT MENTITAS 16G 30U
-H ---------------------------------------- CARGAR EN EL SISTEMA!!!
+H 
 1561 CHOC TABLETA FELFORT 75G
 1562 CHOC FELFORT TIVIS CUBANITO 25G 20U
 1563 CHOC FELFORT TORRONCINO 5 CEREA 30U
@@ -146,20 +146,17 @@ H ---------------------------------------- CARGAR EN EL SISTEMA!!!
 1610 PURITOS SOLITAS BAÑADO 300G
 1620 ROSQUITAS SOLITAS BAÑADAS 300G
 
-14 - Smack --------------------------------------- CARGAR EN EL SISTEMA!!!
+14 - Smack --------------------------------------- OK!!!
 548 ALFAJOR SMACK RELL. DULCE DE LECHE 60G - OK!!!
 544 BOMBON SMACK CHOCOLATE 30U - nuevo
 
-15 - FullMani ------------------------------------ CARGAR EN EL SISTEMA!!!
-2029 CHOC FULL MANI-TABLETON 160G -----------OK!!!
+15 - FullMani ------------------------------------ OK!!!
+2029 CHOC FULL MANI-TABLETON 160G 
 2028 CHOC FULL MANI TABLETA 100G - nuevo! 
 
-16 - Sapito -------------------------- CARGAR EN EL SISTEMA!!!
+16 - Sapito -------------------------- OK!!!
 751 CHOC SAPITO 10G 24U CHOCOLATOSO
 752 CHOC SAPITO 10G 24U D/LECHE
 753 CHOC SAPITO 10G 24U FRUTILLA
 754 CHOC SAPITO 10G 24U MANI
-
----------- Cambio de rubro:
-
----------- Sacar fotos de:	
+	

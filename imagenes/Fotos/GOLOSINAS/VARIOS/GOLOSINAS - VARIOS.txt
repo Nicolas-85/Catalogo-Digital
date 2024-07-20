@@ -1,7 +1,6 @@
 ﻿..............Referencias de rubro GOLOSINAS - VARIOS:
 
 ---------- Productos NO asociados: OK!!
-2066 BANANITA GRANDE 30G - ----- SACAR FOTO!!
 
 3976 CAR LA PAYA 17G 36U ---------------------- OK!!!
 3919 CAR LENGUETAZO TUTI FRUTTI 13G 50U ----------------- OK!!!
@@ -16,11 +15,11 @@
 3917 CHUP MINIONS SURT 10G 36U (Deshabilitar)
 2720 CHUP TROMPITO FRUTAL 11G 50U ---------------------- OK!!!
 
-303 CONFITES DULCE POSADA SURTIDO 100G ----- CARGAR EN EL SISTEMA!!!
+303 CONFITES DULCE POSADA SURTIDO 100G ----- OK!!!
 
 853 FYNN PAFF TUTI FRUTTI 70U ---------------------- OK!!!
 1810 HUEVO TOCA TOCA C/SORPRESA ---------------------- OK!!!
-1634 LA GALLINA COQUITA ---------------- SACAR FOTO!!!
+
 1661 LASER POP DANCING CHUP ---------------------- OK!!!
 3972 MANTECOL IMPULSO 110G ---------------------- OK!!!
 
@@ -29,11 +28,8 @@
 
 1655 PUPPY HOUSE - ------------------------------- OK!!!
 
-
-
 3291 UNICORNIO POP ------------------- OK!!!
 1811 PASTILLAS LATITAS DRINK CANDY ------------------- OK!!!
-
 
 3833 PASTILLA BIYU 20G 12U - ----- VIENE DE ALMACEN - CEREALES - OK!!!
 
@@ -47,8 +43,8 @@
 1 - DOLCA --------------------------------- OK!!!
 730 BANANITA DOLCA 14G 15U
 731 BANANITA DOLCA 30G 16U
-
-2 - Arcor ----------------------------- CARGAR EN EL SISTEMA!!!
+2066 BANANITA GRANDE 30G 
+2 - Arcor ----------------------------- OK!!!
 A 
 2005 CAR ARCOR MASTICABLE FRUTA 800G
 2006 CAR ARCOR MENTA Y CHOCO 715G
@@ -138,7 +134,7 @@ C
 2735 CONF SUGUS SURTIDO 50G //Descripción modificada
 2736 CONF SUGUS SURTIDO 700 (CAMBIAR DESCRIPCION)
 
-14 - TREMBLY - ----------------- OK!!!
+14 - TREMBLY ------------------------ OK!!!
 A
 2670 GELATINA TREMBLITO 10U
 2671 GELATINA TREMBLY BUNNY 6U
@@ -187,11 +183,6 @@ D
 4471 HUESOS CHOCOLATE GRABICH POTE 250G
 4474 GOMA TUTTI POTE GRABICH 350G
 
-28 - GRABICH ----------------------- Cargar en el sistema!!!
-4472 GOMA FRUTAL POTE GRABICH 350G 
-4473 GOMA JELLY POTE GRABICH 350G 
-4475 GOMA EUCALIPTO POTE GRABICH 350G - nuevo
-
 20 - KINDER ----------------------- OK!! 
 842 HUEVO KINDER SORPRESA NENA 20G
 841 HUEVO KINDER SORPRESA NENE 20G
@@ -237,6 +228,11 @@ D
 1648 GOM MAESHMALLOWS TWIST TIRAS 30U( ANULAR NO VA MAS)
 3040 GOM TWIST BARRIL 12G 65U (NO VA MAS)
 
+28 - GRABICH ----------------------- OK!!!
+4472 GOMA FRUTAL POTE GRABICH 350G 
+4473 GOMA JELLY POTE GRABICH 350G 
+4475 GOMA EUCALIPTO POTE GRABICH 350G - nuevo
+
 29 - MONKEY ELIMINAR NO VA MAS
 
 30 - Smack - -------------------- OK!!!
@@ -244,11 +240,11 @@ D
 546 SMACK OBLEA R/CHOC 33G
 547 SMACK BARRA RELL 35G X 12U
 
-31 - Top Line --------------------- CARGAR EN EL SISTEMA!!!
+31 - Top Line --------------------- OK!!!
 783 CHIC TOP LINE MENTA TABLETA 20U
 785 CHIC TOP LINE STRONG TABLETA 20U
 
-32 - Maní Sabor --------------------- cargar en el sistema!!!
+32 - Maní Sabor --------------------- OK!!!
 A
 1229 MANI CON CASCARA KG
 1228 MANI REPELADO SALADO KG
@@ -259,18 +255,7 @@ B
 1232 ARITOS DE CEBOLLA 1KG 
 1238 CHIZITOS X KG 
 
-34 - Turrones ----------------------- Cargar en el sistema!!!
+34 - Turrones ----------------------- ok!!!
 541 DE MANI NEVARES 25G
 542 TURRON FULBITO RELLENO MOUSSE 25G
 1004 TURRON FRUTA ROSQUINENSE 80G - nuevo!!!
-
-
-
----------- Cambio de rubro:
-3870 ALFAJOR COFLER BLOCK TRIPLE 60G - SE CAMBIÓ A GOLOSINAS - ALFAJORES Y CHOCOLATES
-
----------- Sacar fotos de:	
-
-Productos dados de baja:
-1639 CHUP FUN CATCH POP (NO VA MAS DAR DE BAJA)
-1646 CHUP FUN SPORT SURTIDO POP( NO VA MAS)

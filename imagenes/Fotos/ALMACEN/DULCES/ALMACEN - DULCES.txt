@@ -1,13 +1,14 @@
 ﻿Referencias de rubro DULCES:
-_ Analizar la descripción de los productos para ver si el orden está correcto.
 
-Productos NO asociados:
+
+--------- Productos NO asociados:
 
 2095 CAJON DE BATATA ARCOR X 5KG - --------- OK!!!
 
+
 Productos Asociados:
 
-1 - Dulcor --------------------------------------- OK!!!
+1 - Dulcor -------------------------------- OK!!!
 A
 4756 CAJON DULCOR BATATA CHOCOLATE 5KG
 4758 CAJON DULCOR BATATA CHOCOLATE 2KG
@@ -32,14 +33,14 @@ B
 997 DULCE DE LECHE ROSQUINENSE 400G
 996 DULCE DE LECHE ROSQUINENSE REPOSTERO 500G
 
-5 - DULCOR ---------------------- CARGAR EN EL SISTEMA!!!
+5 - DULCOR ---------------------- ok!!!
 4751 LATA DULCOR BATATA 5KG
 4778 LATA DULCOR CEREZA/BATATA 5KG
 4777 LATA DULCOR CHOCO/BATATA 5KG
 4754 LATA DULCOR MEMBRILLO 5KG
 4757 POSTRE DDL/CACAO DULCOR LATA 5KG
 
-6 - CORMILLOT - --------------------------- CARGAR EN EL SISTEMA!!!
+6 - CORMILLOT - --------------------------- ok!!!
 A 
 4766 MERMELADA CORMILLOT DAMASCO LIGHT 390G
 4763 MERMELADA CORMILLOT DURAZNO LIGHT 390G
